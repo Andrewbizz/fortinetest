@@ -1,0 +1,32 @@
+
+.logo{
+    z-index: 999;
+    display: inline-block ;  
+    text-transform: uppercase; 
+    bottom: 0px;
+    margin-left: 0px; 
+    transition: 0.4s;
+    left: 20px;
+}
+
+.pox{
+    color: rgb(253, 194, 1);
+}
+
+.com{
+    font-size: 50px;
+}
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width:500px) {
+    .logo{
+        margin-left: 0px;
+        transition: 0.4s;
+    }
+    
+}
+
+

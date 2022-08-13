@@ -1,0 +1,444 @@
+header a{
+    color: beige;
+}
+
+.page-head{
+	width: 100%; 
+	display: block;
+	position: relative; 
+	background-size: cover;
+	background-repeat: no-repeat; 
+	 
+}
+
+.the-toopx{
+   padding-top: 80px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+.career-head{
+    width: 100%;
+    color: beige ;
+    border-radius: 10px;
+    right: 0;
+    top: 350px;
+    left: 0;
+    z-index: 99999;
+    position: absolute;
+    margin: auto;  
+}
+
+
+@media screen and (max-width:600px) {
+    .career-head{
+    width: 100%;
+    color: beige ;
+    border-radius: 10px;
+    right: 0;
+    top: auto;
+    margin-top: -60px;
+    }
+}
+
+
+.page-head svg{
+    padding-top: 340px;
+    z-index: 99; 
+}
+
+.pg-hd-cont{
+	position: absolute;
+	left: 0px;
+    right: 0;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 70%; 
+	top: 30px;
+}
+
+.pg-hd-cont .leftx{
+   
+}
+
+.page-head::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: ;
+  content: '';
+  background: #040E27;
+  opacity: .7;
+} 
+
+
+.biz-carr::before{
+      position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9969;
+  content: '';
+  background: #040E27;
+  opacity: .6;
+}
+
+
+.the-toopx::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  content: '';
+  background: #040E27;
+  opacity: .6;
+} 
+
+.biz-pg-cap p{
+    color: darkgrey;
+    
+} 
+
+.biz-pg-cap{  
+	background-size: 200%;
+	transition: .5s;
+    display: block;
+	z-index: 1;
+	position: absolute;
+	border-radius: 100%;
+	left: 0;
+    color: #fff;
+	right: 0;
+    text-align: center;
+	margin: auto;  
+	width: 100%;
+	height: auto;
+
+}
+
+.biz-pg-cap:hover{ 
+	background-position: right;
+}
+
+.majortxt{ 
+	font-weight: bold;
+	font-family: agency fb;
+	font-size: 30px;
+    color: #fff;
+    margin-top: 18%;
+	text-align: center;
+}
+
+.pg-hd-cont a{
+		  
+}
+
+
+.pg-hd-cont h1, .pg-hd-cont span {
+	text-shadow: 2px 1px 6px black;
+		  
+}
+
+.pg-hd-cont span{
+	font-size: 16px;
+}
+.pg-hd-cont a{
+	color: orange;'
+	text-transform: capitalize;
+	font-size: 16px;
+	text-shadow: 3px 1px 6px black;
+}
+
+
+.inner-text{ 
+	position: absolute;
+	color: black;
+}
+
+
+.biz-form-cont  { 
+	font-size: 16px;
+}
+
+.biz-sec-3{
+	width: 25%; 
+	font-size: 16px;
+	float: left; 
+	position: relative !important;
+	height: 70px;
+	text-align: center;
+}
+
+/**contact us page **/
+
+.contact-div h1{
+	text-align: center;
+}
+
+.biz-form-cont{
+	width: 100%;
+	position: relative;  
+}
+
+.biz-form-cont h3{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.biz-submit input{
+	background:  #006485;
+	  
+	outline: 0;
+	border: 0;
+	text-align: left !important;
+}
+
+@media screen and (max-width:600px) {
+		
+		.pg-hd-cont{
+			left: 0px; 
+            width: 90%;
+			}
+
+}
+
+
+
+@media screen and (max-width:700px) {
+.biz-sec-3{
+	width: 100%; 
+	float: none; 
+	position: relative !important;
+	height: auto;
+}
+}
+
+.register-form{
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+}
+ 
+.register-form input[type="text"],.register-form input[type="tel"],.register-form input[type="email"], .register-form input[type="number"] {
+	text-transform: uppercase;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 05px 10px ;
+	box-sizing: border-box; 
+	background: rgb(48, 48, 48);
+	  
+	border: none;
+	border-radius: 2px;
+	border-bottom: 2px   #7D7DE6 solid;
+}
+
+
+@media screen and (max-width:800px){
+	
+	.register-form{
+		margin: auto;
+		width: 100%;
+	}
+}
+
+.silver{
+	text-transform: uppercase;
+}
+
+
+.silver a{
+	color:   #7D7DE6; 
+}
+.silver a:hover{
+	  
+}
+
+
+.register-form input:focus{
+	outline: rgba(255, 68, 0, 0.52) solid 2px;
+}
+
+
+
+.register-form input.submit:hover{
+	color:   #7D7DE6;
+}
+
+.register-form input.submit {
+	width: 200px;
+	border-radius: 2px;
+	background: rgb(31, 31, 31);
+	  
+	border-bottom: none;
+	outline: none;
+	border: none;
+	padding: 7px 10px;
+}
+
+
+
+/***************below is the preview page styling while above is the normal category page styling *********************/
+ 
+.biz-div1{
+	  
+	position: relative;
+	display: block;
+ 
+}
+
+.biz-quarter{
+	width: 40%;
+	height: 400px; 
+}
+ 
+.thetab{
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+	margin: 0px;
+	padding: 10px; 
+	  background-position: right;
+	position: relative;
+	 background-image: linear-gradient(70deg, #8585ec, #00041B );
+    color: beige;
+    background-size: 200%;
+}
+
+input[type=checkbox]{
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	opacity: 0;
+	z-index: 999;
+}
+
+.checkedd{
+	opacity: 1 !important;
+	width: 20PX !important;
+	position: relative !important;
+	height: 20PX !important;
+}
+.thetabp p{ 
+	color: beige;
+	transform: translate(0, -100%);
+}
+.thetabp span{ 
+	color: beige !important;
+	transform: translate(0, -100%);
+}
+
+.right{
+    color: beige;
+}
+
+
+.thetabp { 
+	visibility: none;
+	height: 0px;
+    color: beige;
+	overflow: hidden;
+	transition: 0.5s; 
+	margin-bottom: 10px;
+	opacity: 0;
+	text-shadow: 2px 2px 2px rgb(83, 83, 83); 
+}
+
+input[type=checkbox]:hover ~ .thetab{
+    
+	transform: scale(1.03, 1.03);
+	background-size: 150%;
+}
+
+
+input[type=checkbox]:checked ~ .thetab{
+	background-size: 100%;
+    background-position: right;
+}
+
+input[type=checkbox]:checked ~ .thetabp {
+	visibility: visible;
+	transition: 0.5s;
+	height: auto;
+	padding-left: 10px; 
+	padding-right: 10px;
+	opacity: 1; 
+	margin-bottom: 20px;
+	overflow: hidden;
+	 background-image: linear-gradient(to right, #8585ec, #00041B );
+    color: beige;
+}
+
+input[type=checkbox]:checked ~ .thetabp p{
+	
+	transform: translate(0, 0%);
+}
+
+.theplus, .theminus{
+	font-size: 10px; 
+	opacity: 1;
+	top: 30%;
+}
+
+ 
+
+input[type=checkbox]:checked ~ .thetab .theplus { 
+	visibility: hidden !important;
+	opacity: 0;
+    color: beige;
+	transition: 0s;
+}
+
+.thepad{
+	padding:0 2%;
+}
+
+.client-imgcont{ 
+	width: 25%; 
+	margin: auto; 
+}
+
+.client-imgcont img{ 
+	width: 100% ;
+	border-radius: 30%;
+}
+
+
+ 
+.client-name{
+	text-align: center;
+	margin-top: 20px;  
+}
+
+.client-name h4{
+	padding: 0;
+	margin: 0;
+	  
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+.client-name p{
+	font-style: italic;
+}
+
+
+@media screen and (max-width:800px) {
+	
+.client-imgcont{ 
+	width: 60%;
+}
+}
+
+
+@media screen and (max-width:600px) {
+	
+	.client-imgcont{ 
+		width: 70%;
+	}
+	}

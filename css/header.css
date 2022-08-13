@@ -1,0 +1,839 @@
+.head-socials{
+	position: absolute;
+	right: 30px !important;
+	margin: auto;
+	top: 0; 
+	height: 300px;
+	bottom: 0;
+	align-items: center;
+	width: 20px;
+	display: flex;
+	flex-wrap: wrap; 
+	align-content: space-around;
+}
+
+.head-socials a{
+	width: 30px!important;
+	height: 30px!important;
+	display: block; 
+	border-radius: 200px;
+	position: relative;
+	padding: 20px;
+	border: solid 2px #fff;
+}
+
+.head-socials-link .iconify{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0; 
+	right: 0;  
+}
+
+svg{
+	display: block;
+}
+
+.biz-nav-links a{
+	color:  #ffffff ;
+    font-size: 13px !important;
+    font-weight: 400; 
+	display: block !important;
+	justify-content: space-between;
+	align-content: center;
+	margin: auto;
+}
+
+
+.biz-nav-links a:hover{
+	color:  #ffffff !important;
+}
+
+.active {
+	color:  rgb(255, 255, 255)!important;
+}
+
+ 
+
+
+.z-index{
+	z-index: 999;
+}
+
+
+
+.biz-margin-auto{
+    margin: auto;
+    text-align: center;
+}
+ 
+
+/*
+menubar
+*/
+
+.logo{
+	width: 50px; 
+	height: 50PX;
+	position: absolute; 
+	top: 16px;  
+	 
+}
+
+.logo img{
+	width: 100% !important;
+	top: 0 !important;
+}
+
+.logo-img{
+	width: 100% !important;
+	padding: 10px;  
+}
+
+
+.logo a{
+width: 100% !important;  
+}
+
+ 
+
+.phone-logo{
+	display: none;
+}
+
+
+
+
+ .biz-bar2,  .biz-bar4 {
+	width: 35px;
+	height: 4px;
+	background-color: #ffffff;
+	margin: 3px 0;
+	border-radius: 20px;
+	transition: 0.7s;
+	
+}
+
+.biz-bar1,  .biz-bar3 {
+	width: 20px;
+	height: 4px;
+	background-color: #ffffff;
+	margin: 3px 0;
+	border-radius: 20px;
+	transition: 0.7s;
+	
+}
+
+
+.biz-menu-bar:hover .biz-bar1 , .biz-menu-bar:hover .biz-bar2 , .biz-menu-bar:hover .biz-bar3 , .biz-menu-bar:hover .biz-bar4  {
+	
+	background-color:  #ffffff;
+	transition: 0.7s;
+	
+}
+
+
+ 
+
+ 
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ddd; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff ;
+	border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+	border-radius: 0px;
+}
+/*top-nav styling**/
+.biz-top-nav{
+	display: block;
+}
+
+.biz-top-nav  div{
+	display: block;
+}
+
+.baby-top-nav div{
+	display: inline-block;
+	
+}
+/*
+top
+**************************************styling**************************
+nav
+*/ 
+
+.biz-top-nav .baby-top-nav{
+	display: block;
+}
+
+.baby-top-nav div{
+	display: inline-block;
+}
+
+.biz-right{
+	float: right;
+}
+
+ 
+
+/**navbar styling of the navbar starts **/
+.daddy{
+	transition: 0.9s;   
+	position: absolute; 
+	display: inline-block; 
+	right: 0px;
+ 
+	text-align: right;
+	width: 340px; 
+	padding-left: 0 !important;
+	margin: auto; 
+	margin-top: 20px;
+	z-index: 999999999999999999999999;  
+}
+
+
+
+#navbar{
+	height: 70px;
+	color:  /*#7D7DE6*/ #fff !important ;
+	position: fixed;
+	top: 0px;
+	z-index: 999999999999999999999999;
+	width: 100%; 
+	transition: 0.8s;
+	background-size: 9; 
+	
+	padding: 0px;
+	/*box-shadow: 4px 2px 12px #7D7DE6*/;
+}
+
+
+.biz-nav-links{
+	display:  flex;    
+	 width: 100%;
+	 justify-content: space-evenly;
+	 transition:0.5s; 
+}
+ 
+
+@media screen and (max-width:1200px){
+	.daddy{
+		 
+	}
+}
+@media screen and (max-width:1000px){
+		
+	.daddy{ 
+	transition: 0.4s;  
+	}
+}
+
+@media screen and (max-width:920px){
+	.daddy{   
+		transition: 0.4s;
+	}
+}
+
+
+@media screen and (max-width:901px){
+	.daddy{ 
+	transition: 0.4s; 
+	}
+	
+	
+}
+
+@media screen and (max-width:500px){
+	.daddy{ 
+	transition: 0.4s;
+ 
+	}
+	
+
+	
+	
+}
+
+.flipxxx{
+     -webkit-transform: rotate(0deg)!important; /* Safari */
+    display: inline-block;
+    transform: rotate(0deg);
+        transform: scale(1.5, 1.5);
+}
+
+.flopx{
+     -webkit-transform: rotate(910deg)!important; /* Safari */
+    display: inline-block;
+    transform: rotate(910deg);
+    transform: scale(0.5, 0.5);
+    
+}
+
+
+#navbar a{
+	display : inline-block;
+	position: relative; 
+	margin: 0px 5px; 
+	transition: 0.4s; 
+	 
+}
+
+.five{
+	position: relative;
+}
+
+.the-hr1, .the-hr2, .the-hr3,.the-hr4,.the-hr5,.the-hr6, .the-hr7{
+	 width: 0;
+	 height: 1.5px;
+	 background:  #7D7DE6 ;
+	 border: none;
+	outline: 0;
+	margin: auto;
+}
+
+ 
+ .one:hover .the-hr1{
+	 transition: 0.4s; 
+	 width: 100%; 
+ }
+ 
+ 
+ 
+ .two:hover .the-hr2{
+	width: 100%; 
+	 transition:   0.4s;
+ }
+ 
+  .three:hover .the-hr3{ 
+	width: 100%; 
+	 transition: 0.4s;
+ }
+
+ .four:hover .the-hr4{ 
+	 width: 100%;
+	 transition: 0.4s;
+ }
+ 
+  .five:hover .the-hr5{ 
+	width: 100%; 
+	 transition: 0.4s;
+ }
+
+ .six:hover .the-hr6{ 
+	width: 100%; 
+	transition: 0.4s;
+}
+  
+.seven:hover .the-hr7{  
+	width: 100%; 
+	transition: 0.4s;
+} 
+
+/* phone 
+
+100% nav 
+
+over lay
+
+*/
+
+
+
+
+.bull{
+    height: 50px;
+}
+
+
+.bull .spanb{
+    width: 40px ;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block!important;
+}
+
+.spanb img{
+    
+}
+
+.overlay-content::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.overlay-content{
+	position: relative;
+	
+	width: 100%;
+	padding-left: 29px;
+	height: 80%;
+	text-align: left;
+	margin-top: 30px;
+	transition:0.5s;
+}
+
+.overlay a{ 
+	padding: 8px;
+	text-decoration: none;
+	font-size: 25px; 
+	display: block;
+	transition: 0.5s;
+}
+
+.overlay a:hover, .overlay a:focus{
+	
+
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 0px;
+	right: 45px;
+	font-size: 60px;
+}
+
+.closebtn{
+	-webkit-transform: rotate(-90deg)   ;
+    transform: rotate(-90deg)   ;
+}
+
+.closebtn:hover{
+-webkit-transform: rotate(90deg)  ;
+    transform: rotate(90deg)   ;
+	}
+
+/**navbar styling of the navbar ends**/
+
+
+
+
+
+/*this is where i started styling the body*/
+.biz-body{ 
+	position: relative;
+
+	background-position: center;
+	background-size: cover;   
+ 
+}
+
+ 
+ 
+
+
+/*
+ category styling
+*/
+
+.category-ul{
+	
+}
+
+.biz-category h2{
+	font-size:20px;
+ 
+}
+
+.main-category{
+	width: 20%;
+	display:  block;
+	float: left;
+	clear: both;
+	text-align: center;
+	background: #fff;
+	padding-top: 100px; 
+	border-radius: 9px 9px 9px 9px;
+	position: fixed;
+	top:0;
+}
+
+
+.main-category a{
+	padding:10px;
+	display:block;
+	width: 100%;
+	position: relative;
+	transition: 0.7s; 
+	font-weight: bold;
+ 
+}
+
+.main-category a:hover{
+	color:  #7D7DE6;
+}
+
+/*
+
+ body div  styling starts here 
+
+*/
+
+.body-div-container{ 
+	padding-left: 15px;
+
+	width: 80%;
+	display:  block;
+	float: right;
+	transition: 0.4s;
+}
+
+.column{
+	float: left;
+	position: relative;
+ 
+	display: none;
+	width: 24%;
+	margin: 0.5%;
+	transition: 0.6s;
+	 }
+	 
+
+.column .baby-img-container{
+	width: 100%;
+	background: #7D7DE6;;
+}
+
+.baby-img-container img{
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+ 
+ 
+/**
+mediaquery  view of site goes all the way down
+**/
+
+
+/*
+for system 
+menu to 
+ disappear
+ */
+
+
+ 
+  
+		.biz-menu-bar{
+			animation: 1.2s;
+			transition: 0.8s;
+			display:none ;
+			
+			}
+ 
+/* 
+for mid-pad view 
+*/
+
+
+
+
+@media screen and (max-width:900px) {
+	.biz-body-div{
+	width: 100%;
+	transition: 0.4s;
+	}
+	
+	.column{
+	width: 30%;
+	margin: 0.5%;
+	transition: 0.7s;
+	}
+	
+	
+	#navbar a{ 
+		margin: 0px 5px ;
+	}
+
+ 
+
+
+
+
+}
+
+.the-drop{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.bizmenu-dropdown{
+	position: absolute;
+	visibility: hidden;
+	top: 50px;
+    width: 120px;
+	opacity: 0;
+	background:  #0f0e1c;
+	padding: 0 !important; 
+
+	left:0;
+	transition: 0.6s;
+}
+
+.bizphone-drop{
+	z-index: 9999999999999999999999999999;
+	
+}
+
+.the-phonedrop{
+	display: block;
+}
+
+.bizmenu-dropdown  a{ 
+    margin: auto;
+	display: block !important;
+	padding: 2px 2px !important;
+	margin-bottom: 3px !important; 
+}
+
+ 
+
+.the-drop:hover .bizmenu-dropdown{
+	 visibility: visible;
+	opacity: 1;
+	top: 30px;
+	transition: 0.6s;
+}
+
+
+ 
+@media screen and (max-width:621px) {
+
+	
+.bizmenu-dropdown{
+	top: 80px;
+}
+	
+	.the-drop:hover .bizmenu-dropdown{
+		visibility: visible;
+	   opacity: 1;
+	   top: 50px;
+	}
+
+	.bizmenu-dropdown a{
+		margin-bottom: 3px; 
+	}
+
+	.bizmenu-dropdown a:hover{
+		
+		color: #7D7DE6 !important ;
+	}
+		
+	.bizmenu-dropdown{
+		background: #0f0e1c;
+		width: 80%;
+		left: 10%;
+		right: auto;
+		margin: auto;
+	}
+
+	
+
+	
+}
+
+@media screen and (max-width:701px) {
+	.column{
+	width: 49%;
+	transition: 0.5s;
+	}
+
+}
+
+
+@media screen and (max-width:800px) {
+ 
+	.biz-body-div{ 
+	width: 100%;
+	transition: 0.4s;
+	}
+	
+	
+	#navbar a{ 
+		margin: 0px 3px;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width:800px) {
+
+	
+	.biz-menu-bar {
+		float: right;
+		display: inline ;
+		top: 25PX;
+		opacity: 1;
+		cursor: pointer;
+		margin-right: 20px;
+		transition: 1.4s;  
+	}
+
+	.daddy{   
+		opacity: 0;
+        visibility: collapse;
+        z-index: -999999999999999999999;
+		transition: 1.9s;
+		}
+	
+
+
+.logo{
+	 
+	position: relative !important;
+	width: 50px;
+	height: 50px; 
+	float: none;
+	left: 0; 
+	
+}
+
+ 
+
+.logo a{ 
+}
+
+ 
+
+.phone-logo{
+	display:  block;
+	position: relative;
+	width: 100% !important; 
+	top: 0px;
+	margin : 0PX;
+}
+
+.phone-logo img{
+	width: 100% !important;
+	 
+}
+
+.logotext{ 
+	position: absolute; 
+    font-size: 13px;
+	width: 190px; 
+	color: #5D5D5D;
+	top: 20px; 
+}
+
+.logo:hover .logotext{
+	color:  #7D7DE6;
+}
+
+}
+
+/** this is the  very last phone screen size of the website 
+............
+ therefore  
+this is whe
+re i should 
+start styling
+ the last levels 
+**/
+
+@media screen and (max-width:500px) {
+	.column{
+	width: 100%;
+	transition: 0.5s;
+	}
+}
+
+/** slide show **/
+
+.desc {
+	position: absolute;
+	height: auto;
+	bottom: 0;   
+	top: auto;
+	width: 100%;
+	padding: 10px 4px;
+	text-align: center;  
+	background: rgba(29, 29, 29, 0.363);
+	border-left: solid 4px   #7D7DE6;
+	border-radius: 0 2% 0% 0; 
+	transition: 0.6s;
+}
+
+
+.biz-row{
+	width: 100%;
+}
+
+
+.biz-row .slider-text{
+	width: 70%;  
+	margin: auto; 
+	top: 100px !important ;
+	position: absolute;
+}
+
+.desc h2{
+	color: #7D7DE6 !important ; 
+	font-size: 5vw; 
+	font-family: Encode Sans;
+}
+
+.desc .btn{
+	border-radius: 04px; 
+	background: rgb(34, 34, 34);
+
+}
+	
+@media screen and (max-width:650px) {
+	*{
+		transition: 0.6s;
+	}
+	.desc { 
+		left: 10px; 
+	}
+
+	.biz-row .slider-text{
+		width: 89%; 
+		position: absolute;
+	}
+
+	.desc h2{ 
+		font-size: 7vw; 
+	}
+
+	
+}
+
+@media screen and (max-width:500px) {
+	.desc { 
+		left: -10px;
+	}
+
+	.desc h2{ 
+		font-size: 9vw; 
+	}
+}
+
+.hy{ 
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	height: 300px;
+	position: absolute;
+}
