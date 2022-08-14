@@ -121,6 +121,27 @@
 }
 
 @media screen and (max-width: 700px){
+
+	.fortinet-about{ 
+		display: block; 
+	}
+
+
+	.fort-half{
+		width: 96%;
+		margin: auto;
+	}
+	
+	.half-image{
+		height: 400px;
+		width: 100% !important;
+		background-image: url(../images/headbg.png);
+		background-size: 100%; 
+		background-repeat: no-repeat;
+		background-position: 0 0px; 
+		margin-bottom: 80px;
+	}
+
     .split{
         display: block;
 	}
