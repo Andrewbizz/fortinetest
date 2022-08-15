@@ -2,6 +2,15 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400);
 
 
+.team-head{
+	height: 160px;
+	width: 160px;
+	background-color: #000;
+	margin: auto;
+	border-radius: 150px;
+	background-size: cover;
+	background-position: center;
+}
  
 .jajacont {
 	display: flex; 
@@ -453,6 +462,10 @@
 	margin-top: 0 !important; 
 	margin-bottom: 0 ;
 	
+}
+
+.team-head-cont{
+	margin-bottom: 30px !important;
 }
 
 .the-why-child-haf{ 
