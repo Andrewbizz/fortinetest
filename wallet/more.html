@@ -1,0 +1,1425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="imgs/fav.png">
+      <meta name="description" content=" The world's largest financial framework ">
+      <meta name="keywords" content="investment fintech finance revolution networking company">
+      <meta charset="UTF-8">
+      <title>Vext</title>
+      <link rel="stylesheet" type="text/css" href="css/linearicons.css">
+      <link rel="stylesheet" type="text/css" href="css/icomoon.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css"> 
+      <link rel="stylesheet" href="../bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="../bootstrap/ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/main.css">
+      <!--important-->   
+      <script src="javascript/main.js"></script>  
+      <script src=" javascript/chart.min.js"></script>
+      <script src="javascript/swiper-bundle.min.js"></script>
+      <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+      <!-- CSS_ADSBLOCK_START -->
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">  
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">   
+      <!-- CSS_ADSBLOCK_END -->
+        
+      <style> 
+
+        .header{
+           box-shadow: none !important;
+        }
+        
+        .sidenav {
+              grid-area: sidenav; 
+              height: 100%;
+              min-width: 170px;
+              max-width: 350px;
+              width: 20%;
+              position: fixed;
+              overflow-y: hidden; 
+              transition: all .6s ease-in-out;
+              z-index: 1; 
+        }
+        
+         
+        
+        
+          .desg-name {
+                 color: red;
+                 font-weight: bold;
+                 font-size: 20px;
+              }
+        
+                      .cc-selector input {
+                         margin: auto;
+                         padding: 0;
+                         -webkit-appearance: none;
+                         -moz-appearance: none;
+                         appearance: none;
+                         border-radius: 4px;
+                      }
+                      .c-card {
+              background-image: url(svg/bank.svg);
+              background-position: left;
+              }
+              .crypto {
+              background-image: url(svg/usdt.svg);
+              background-size: cover;
+              background-position: left;
+              }
+              .etherium {
+              background-image: url(svg/eth.svg);
+              background-size: cover;
+              background-position: left;
+              }
+                      
+                      .bot{
+                          margin-top: 30px;
+                      }
+                   
+                
+                      .cc-selector input:active + .drinkcard-cc {
+                         opacity: 0.5;
+                      }
+                      .cc-selector input:checked + .drinkcard-cc {
+                         -webkit-filter: none;
+                         -moz-filter: none;
+                         filter: none;
+                      }
+                      .drinkcard-cc {
+                         cursor: pointer;
+                         background-size: contain;
+                         background-repeat: no-repeat;
+                         display: inline-block;
+                         margin: auto;
+                         width: 50px;
+                         height: 40px;
+                         -webkit-transition: all 100ms ease-in;
+                         -moz-transition: all 100ms ease-in;
+                         transition: all 100ms ease-in;
+                         -webkit-filter:  grayscale(0.5)   opacity(0.4);
+                         -moz-filter: grayscale(0.5)    opacity(0.4);
+                         filter:  grayscale(0.5)    opacity(0.4);
+                      }
+                
+                      .drinkcard-cc:hover {
+                         -webkit-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                         -moz-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                         filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                      }
+                
+                      .cryptoc:after {
+                         position: absolute;
+                         top: -32px;
+  
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold !important;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                      
+                            .etheriumc:after {
+                               position: absolute;
+                         top: -32px;
+                        
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                
+                      .c-cardc,
+                      .cryptoc {
+                         display: block;
+                         position: relative;
+                         width: 80px;
+                      }
+                      
+                            .c-cardc,
+                      .etheriumc {
+                         display: block;
+                         position: relative;
+                         width: 80px;
+                      }
+                
+                      .c-cardc:after {
+                         position: absolute;
+                         top: -32px;
+                       
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                
+                      .meth {
+                         display: inline-block;
+                         width: 80px;
+                      }
+                       
+                
+                
+                      .dix {
+                         width:100%;
+                         display: block;
+                         margin: auto !important;
+                         text-align: center !important;
+                         margin-bottom: 39px;
+                      }
+                      
+                      
+                
+                      .ccselector .inputr {
+                         margin: auto;
+                         padding: 0;
+                         -webkit-appearance: none;
+                         -moz-appearance: none;
+                         appearance: none;
+                         border-radius: 4px;
+                      }
+                      .ccard{
+              background-image: url(svg/shrimp.svg);
+              background-position: left;
+              }
+              .cryptorr {
+              background-image: url(svg/shrimp.svg);
+              background-size: cover;
+              background-position: left;
+              }
+              .etheriumrr {
+              background-image: url(svg/shrimp.svg);
+              background-size: cover;
+              background-position: left;
+              }
+                   
+                
+                      .inputr:active + .drinkcardcc {
+                         opacity: 0.5;
+                      }
+                      .inputr:checked + .drinkcardcc {
+                         -webkit-filter: none;
+                         -moz-filter: none;
+                         filter: none;
+                      }
+                      .drinkcardcc {
+                         cursor: pointer;
+                         background-size: contain;
+                         background-repeat: no-repeat;
+                         display: inline-block;
+                         margin: auto;
+                         width: 50px;
+                         height: 40px;
+                         -webkit-transition: all 100ms ease-in;
+                         -moz-transition: all 100ms ease-in;
+                         transition: all 100ms ease-in;
+                         -webkit-filter:  grayscale(0.5)   opacity(0.4);
+                         -moz-filter: grayscale(0.5)    opacity(0.4);
+                         filter:  grayscale(0.5)    opacity(0.4);
+                      }
+                
+                      .drinkcardcc:hover {
+                         -webkit-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                         -moz-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                         filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+                      }
+                
+                      .cryptor:after {
+                         position: absolute;
+                         top: -32px;
+                       
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold !important;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                      
+                            .etheriumr:after {
+                               position: absolute;
+                         top: -32px; 
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                
+                      .ccardr,
+                      .cryptor {
+                         display: block;
+                         position: relative;
+                         width: 80px;
+                      }
+                      
+                            .ccardr,
+                      .etheriumr {
+                         display: block;
+                         position: relative;
+                         width: 80px;
+                      }
+                
+                      .ccardr:after {
+                         position: absolute;
+                         top: -32px;
+                       
+                         width: 60%;
+                         height: 10px;
+                         display: block;
+                         text-transform: uppercase;
+                         text-align: center; 
+                         right: 0;
+                         left: 0px;
+                         transform: translatey(40px);
+                          color: black;
+                         margin: auto;
+                         font-weight: bold;
+                         font-size: 10px;
+                         z-index: 1;
+                      }
+                
+                      .meth {
+                         display: inline-block;
+                         width: 80px;
+                      }
+               
+        
+        
+              .dix {
+                 width:100%;
+                 display: block;
+                 margin: auto !important;
+                 text-align: center !important;
+                 margin-bottom: 39px;
+              }
+        </style>
+        
+           <style>
+
+               divv{
+                   display: block;
+               }
+
+               divv .the-input{
+                 
+                min-width: 300px;
+               }
+        
+                .progress-cell{
+                    display: flex;
+                    background-color: transparent !important;
+                    box-shadow: transparent 0px 0px 2px 0 !important;
+                    border-radius: 0px !important;
+                    width: 80%;
+                    min-width: 300px;
+                    max-width: 300px;
+                }
+
+                .progress-cellv{
+                    display: flex;
+                    background-color: transparent !important;
+                    box-shadow: transparent 0px 0px 2px 0 !important;
+                    border-radius: 0px !important;
+                    width: 80%;
+                    max-width: 300px;
+                }
+        
+                .progress-cell .inner{
+                    width: 80% !important;
+                    display: block !important; 
+                }
+        
+                .tiny{
+                    display: block !important;
+                }
+              .active:hover{
+                  transform: none !important;
+                  
+              }
+              .active:hover .svg{
+                  transform: none !important;
+                  bottom: 0!important;
+              }
+              .notecon{
+                  display: flex !important; 
+                  justify-content: center;
+                  align-items: center;
+            background-color: #4162ff;
+                  margin-right: 6px;
+                  height: 45px !important;
+                  font-size: 29px!important ;
+                  border-radius: 50%;
+                  width: 45px !important;
+                 
+              }
+              .done{
+              background: TRANSPARENT !important;
+              position: relative;
+              border: 1px solid #76EB00 !important;
+              box-shadow: 0 0 20px white !important;
+              }
+              .done:after{
+              background: #76EB00 !important;
+              }
+          @media screen and (max-width:900px) {
+            .progress-cell{
+                max-width: none !important;
+                width: 80%;
+            }
+            
+            
+            .progress-cell .inner{ 
+          
+        }
+        
+        .progress-cell .amount{
+            text-align: right;
+        }
+        }
+        
+        
+        .profilezz{
+            height: 100%;
+            width: 100% !important;
+            max-width: 900px;
+            background: #F9F9FF;
+            position: fixed;
+            top: 0;
+            margin: auto;
+            left: 0;
+            right: 0;
+            transform: translate(50000%) !important;
+            z-index: 999999999999999999999999999999;
+            display: block;
+        }
+        
+        .paymentzz{
+            height: 100%;
+            width: 100% !important;
+            max-width: 900px;
+            background: #fff;
+            position: fixed;
+            top: 0;
+            margin: auto;
+            left: 0;
+            right: 0;
+            transform: translate(50000%) !important;
+            z-index: 999999999999999999999999999999;
+            display: block;
+        }
+        
+        
+        .securityzz{
+            height: 100%;
+            width: 100% !important;
+            max-width: 900px;
+            background: #fff !important;
+            position: fixed;
+            top: 0;
+            margin: auto;
+            left: 0;
+            right: 0;
+            transform: translate(50000%) !important;
+            z-index: 999999999999999999999999999999;
+            display: block;
+            overflow-x: hidden;
+        }
+        
+        
+        
+        
+        
+        
+        .nil{
+            transform: translate(0, 0) !important;
+        }
+        
+        
+           </style>
+           
+        
+        <!-- edit securityzz-->
+        <style>
+            .seczz{
+                position: fixed;
+                top: 0 !important;
+                width: 100%;
+            transform: translate(100%, 0);
+            transition: 0.01s;
+            opacity: 0;
+            z-index: 99999999999999999999999999999999;
+            }
+            
+        .nile{
+            transition: 0.01s;
+            opacity: 1;
+            animation: 0.01s;
+            transform: translate(0%, 0);
+        }
+        
+            
+            
+            
+        </style>
+        
+        
+<style>
+
+    .progress-cell{
+        display: flex;
+        background-color: #fff !important;
+        box-shadow: transparent 0px 0px 2px 0 !important;
+        border-bottom: solid 1px rgba(0, 0, 0, 0.108) !important; 
+        border-radius: 0px !important;
+        margin: auto;
+        width: 80%;
+        min-width: 360px;
+        max-width: 360px;
+    }
+
+    .progress-cell .inner{
+        width: 80% !important;
+        display: block !important; 
+    }
+
+    .tiny{
+        display: block !important;
+    }
+  .active:hover{
+      transform: none !important;
+      
+  }
+  .active:hover .svg{
+      transform: none !important;
+      bottom: 0!important;
+  }
+  .notecon{
+      display: flex !important; 
+      justify-content: center;
+      align-items: center;
+background-color: #4162ff;
+      margin-right: 6px;
+      height: 45px !important;
+      font-size: 29px!important ;
+      border-radius: 50%;
+      width: 45px !important;
+     
+  }
+  .done{
+  background: TRANSPARENT !important;
+  position: relative;
+  border: 1px solid #76EB00 !important;
+  box-shadow: 0 0 20px white !important;
+  }
+  .done:after{
+  background: #76EB00 !important;
+  }
+@media screen and (max-width:900px) {
+.progress-cell{
+    max-width: none !important;
+    width: 80%;
+}
+
+
+.progress-cell .inner{ 
+
+}
+
+.progress-cell .amount{
+text-align: right;
+}
+}
+
+
+ 
+
+</style>
+
+   </head>
+   <!--body-->
+   <body class="biz-body  " onload="loader()"  style="display: block; position: relative ;  " >
+      <header>
+         <div id="navbar" class="the-nav">
+         </div>
+      </header>
+
+
+      <!--my dear loader -->
+      <div class="loader" id="loader" >
+         <script></script>
+         <div class="theb">
+         </div>
+         <div class="div">
+            <img src="imgs/fav.png">
+         </div>
+      </div>
+
+      <!--my dear loader ends -->
+    <div class="dpadding" style="  position: absolute; width: 100%; margin: auto; max-width: 1400px; left: 0; right: 0; background-color: #F9F9FF; "> 
+     <!-- include everything from here down to where you see for sidenav on the computer view "Includes Ends here"-->
+      <?php include("./includes/aside.php"); ?>
+      <!-- "Includes Ends here"-->
+
+        <div class="the-main" style="   margin-top: -20px !important; padding-top: 0px;  "> 
+              <div class="home-container scrollbaz" style=" ">
+
+
+                <main class="main scrollbaz"  style="  ">
+                  <div class="header " >
+
+              
+
+                      <div class="biz-left">
+
+          
+                        <span>
+                        
+                            <div class="dashboard">
+                              <span style="font-family: poppins,  sans-serif !important;">Good Day </span>
+                            </div>
+                            <span style="font-family: poppins,  sans-serif !important;">Vincent  </span>
+                        </span>
+
+                      
+
+
+                      </div>
+                      <!--div class="biz-right" id="buttonx" >
+                        <a href="notifications.html">
+                            <span class="round">
+
+                              <span style="color: rgb(80, 80, 80); font-size: 29px;" class="iconify" data-icon="fa-regular:bell"></span>
+                             
+                            </span>
+                        </a>
+                      </div-->
+                      
+                      <div class="biz-right" style="">
+
+                        <div class="avatarx" > 
+  
+                        </div>
+                      
+                        <span class="iconify drop-down" data-icon="ri:arrow-drop-down-line"></span>
+                      
+  
+  
+                      </div>
+
+
+                  </div>
+
+                  <div class="  dash-body"  id="button">
+                  <div class=" " style="width: 100%;  overflow: hidden;  " >
+                  
+         
+                      <div class="Hcontainer  "  >
+               
+                    
+  
+                      </div>
+
+
+                      
+ 
+                    
+                  </div>
+
+ 
+                  <div class=" Hcontainer charts-container">
+
+                    
+                    <div class="HBox">
+                       <div class="Hbox-row" style="display: block;">
+                          <div  id="Profile"   style="cursor: pointer;" class="progress-cell investment">
+                             <div class="notecon" style="background: transparent !important;">
+                                <span style="color: #688AFE;;" class="lnr ">
+                                    <span class="iconify" data-icon="ri:exchange-dollar-fill" style="color: #688AFE; background: rgba(192, 206, 254, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                                </span>
+                             </div>
+                             <div class="inner">
+           
+                                <div class="content">
+                                   <span style="">
+                                      
+                                      <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                       My Account
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                       </div>
+                                   </span>
+           
+           
+                                  
+                                </div>
+                               
+                             </div>
+                             <div class="amount">
+           
+                             </div>
+                          </div>
+                          <div  id="payment"  style="cursor: pointer;" class="progress-cell investment">
+                            <div class="notecon" style="background: transparent !important;">
+                               <span style="color: #688AFE;;" class="lnr ">
+                                   <span class="iconify" data-icon="uil:arrow-growth" style="color: #10C8D7; background: rgba(21, 216, 228, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                               </span>
+                            </div>
+                            <div class="inner">
+          
+                               <div class="content">
+                                  <span style="">
+                                     
+                                     <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                       Virtual Cards
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                      </div>
+                                  </span>
+          
+          
+                                 
+                               </div>
+                              
+                            </div>
+                            <div class="amount">
+          
+                            </div>
+                         </div>
+                          <div   style="cursor: pointer;" class="progress-cell investment">
+                            <div class="notecon" style="background: transparent !important;">
+                               <span style="color: #688AFE;;" class="lnr ">
+                                   <span class="iconify" data-icon="ic:baseline-tips-and-updates" style="color: #FF7373;; background: rgba(211, 58, 58, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                               </span>
+                            </div>
+                            <div class="inner">
+          
+                               <div class="content">
+                                  <span style="">
+                                     
+                                     <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                        Banks And Cards
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                      </div>
+                                  </span>
+          
+          
+                                 
+                               </div>
+                              
+                            </div>
+                            <div class="amount">
+          
+                            </div>
+                         </div>    
+                         <a  href="notifications.html"  style="color: #000;cursor: pointer;" class="progress-cell investment">
+                            <div class="notecon" style="background: transparent !important;">
+                               <span style="color: #688AFE;;" class="lnr ">
+                                   <span class="iconify" data-icon="uil:create-dashboard" style="color: #CDA900; background: rgba(254, 217, 23, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                               </span>
+                            </div>
+                            <div class="inner">
+          
+                               <div class="content">
+                                  <span style="">
+                                     
+                                     <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                        Notification Center
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                      </div>
+                                  </span>
+          
+          
+                                 
+                               </div>
+                              
+                            </div>
+                            <div class="amount">
+          
+                            </div>
+                          </a>
+                         <div   style="cursor: pointer;" class="progress-cell investment">
+                            <div class="notecon" style="background: transparent !important;">
+                               <span style="color: #688AFE;;" class="lnr ">
+                                   <span class="iconify" data-icon="uil:create-dashboard" style="color: #CDA900; background: rgba(254, 217, 23, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                               </span>
+                            </div>
+                            <div class="inner">
+          
+                               <div class="content">
+                                  <span style="">
+                                     
+                                     <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                       Refer A friend
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                      </div>
+                                  </span>
+          
+          
+                                 
+                               </div>
+                              
+                            </div>
+                            <div class="amount">
+          
+                            </div>
+                         </div>
+                         <a href="support.html"   style="cursor: pointer; color: #000;" class="progress-cell investment">
+                            <div class="notecon" style="background: transparent !important;">
+                               <span style="color: #688AFE;;" class="lnr ">
+                                   <span class="iconify" data-icon="uil:create-dashboard" style="color: #CDA900; background: rgba(254, 217, 23, 0.1); padding: 2px; border-radius: 100%; position: absolute; top: 0; bottom: 0; margin: auto; left: 0; right: 0;"></span>
+                               </span>
+                            </div>
+                            <div class="inner">
+          
+                               <div class="content">
+                                  <span style="">
+                                     
+                                     <div  class=" p" style="text-align: left;  padding-bottom: 10px !important; padding-top: 0px; font-size:17px; font-weight: 500">
+                                        Support
+                                        <div class="tiny" style="color:black; font-weight: 400; color: #767676;"> Setup your withdrawal methods</div> 
+                                      </div>
+                                  </span>
+          
+          
+                                 
+                               </div>
+                              
+                            </div>
+                            <div class="amount">
+          
+                            </div>
+                          </a>
+                         
+
+                         <div style="text-align: center; margin-top: 30px; margin-bottom: 40px;  font-weight: 600;font-size: 16px; color: #FD5942;">X Logout</div>
+                        
+                       </div>
+                    </div>
+                 </div>
+                 
+
+                
+                  </div>
+
+                
+                  
+                  
+                  
+                  
+                  <!-- include everything from here down to where you see "Includes Ends here"-->
+ 
+            <!--phone navigation links -->
+          <?php include("./includes/footer.php"); ?>
+          <!-- phone nav links ends-->
+
+         <?php include("./includes/popups.php"); ?>
+          <!--"Includes Ends here"-->
+
+                </main> 
+
+              
+              </div>
+
+              <!--div class="sidenav2 scrollbaz" style="overflow: scroll;     "  >
+        
+
+              
+
+                <div class="the-nav thenav scrollbaz" style="    width: 100%;"> 
+
+        
+
+                  <div class="progress-cont   scrollbaz ">
+                    <div class="HBox scrollbaz">
+
+                      
+                        <div class="Hbox-row scrollbaz side-row" style="display: block;">
+                        
+
+                          <div class="progress-cellx" style=" width: 100%; font-size: 27px; color: rgb(58, 58, 58); font-weight: bold; ">
+                            <div class="" style=" margin-bottom: 10px ">
+                                <span style="text-align: left !important; font-family: calibri !important; font-weight: bolder !important; font-size: 12px !important;">
+                                Recent Activity 
+                                </span>
+                                <span style="float: right; text-align: center; font-size:12px !important;  padding: 10px; border-radius: 40px; min-width: 40px; min-height:40px; ">
+                                    All
+            
+                                </span>
+                            </div>
+                          </div>
+                           
+                          <div class="progress-cell btc-wthd">
+                             
+                              <div class="inner">
+                                <div class="title"> Withdrawal
+                                </div>
+                                <div class="content">
+                                    <span style="">
+                                      <div class="date tinyxx" style=" padding: 0; margin: 0;   text-align: left;   font-weight: normal">
+                                          01:30 PM
+                                      </div>
+                                    </span>
+                                </div>
+                              </div>
+                              <div class="amount">
+                                -$59,000,000
+                              </div>
+                          </div>
+
+
+                          <div class="progress-cell transf">
+                              
+                              <div class="inner">
+                                <div class="title"> Transfer
+                                </div> 
+                                <div class="content">
+                                  <span style="">
+                                    <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                        01:30 PM
+                                    </div>
+                                  </span>
+                              </div>
+                              </div>
+                              <div class="amount">
+                                -$39,000
+                              </div>
+                          </div>
+
+
+                          <div class="progress-cell transf">
+                           
+                            <div class="inner">
+                              <div class="title"> Transfer
+                              </div> 
+                              <div class="content">
+                                <span style="">
+                                  <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                      01:30 PM
+                                  </div>
+                                </span>
+                            </div>
+                            </div>
+                            <div class="amount">
+                              -$39,000
+                            </div>
+                        </div>
+
+
+                          <div class="progress-cell btcdepp">
+                             
+                              <div class="inner">
+                                <div class="title"> Deposit
+                                </div> 
+                                <div class="content">
+                                    <span style="">
+                                      <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                        01:30 PM
+                                    </div>
+                                    </span>
+                                </div>
+                              </div>
+                              <div class="amount">
+                                +$39,000
+                              </div>
+                          </div>
+                    
+
+                          <div class="progress-cell transf">
+                            
+                            <div class="inner">
+                              <div class="title"> Transfer
+                              </div> 
+                              <div class="content">
+                                <span style="">
+                                  <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                      01:30 PM
+                                  </div>
+                                </span>
+                            </div>
+                            </div>
+                            <div class="amount">
+                              -$39,000
+                            </div>
+                        </div>
+
+                 
+
+                        <div class="progress-cell transf">
+                     
+                          <div class="inner">
+                            <div class="title"> Transfer
+                            </div> 
+                            <div class="content">
+                              <span style="">
+                                <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                    01:30 PM
+                                </div>
+                              </span>
+                          </div>
+                          </div>
+                          <div class="amount">
+                            -$39,000
+                          </div>
+                      </div>
+
+                      <div class="progress-cell transf">
+                      
+                        <div class="inner">
+                          <div class="title"> Transfer
+                          </div> 
+                          <div class="content">
+                            <span style="">
+                              <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                  01:30 PM
+                              </div>
+                            </span>
+                        </div>
+                        </div>
+                        <div class="amount">
+                          -$39,000
+                        </div>
+                    </div>
+
+                    <div class="progress-cell transf">
+                 
+                      <div class="inner">
+                        <div class="title"> Transfer
+                        </div> 
+                        <div class="content">
+                          <span style="">
+                            <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                01:30 PM
+                            </div>
+                          </span>
+                      </div>
+                      </div>
+                      <div class="amount">
+                        -$39,000
+                      </div>
+                  </div>
+
+                  <div class="progress-cell transf">
+                    
+                    <div class="inner">
+                      <div class="title"> Transfer
+                      </div> 
+                      <div class="content">
+                        <span style="">
+                          <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                              01:30 PM
+                          </div>
+                        </span>
+                    </div>
+                    </div>
+                    <div class="amount">
+                      -$39,000
+                    </div>
+                </div>
+
+                <div class="progress-cell transf">
+              
+                  <div class="inner">
+                    <div class="title"> Transfer
+                    </div> 
+                    <div class="content">
+                      <span style="">
+                        <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                            01:30 PM
+                        </div>
+                      </span>
+                  </div>
+                  </div>
+                  <div class="amount">
+                    -$39,000
+                  </div>
+              </div>
+
+              <div class="progress-cell transf">
+           
+                <div class="inner">
+                  <div class="title"> Transfer
+                  </div> 
+                  <div class="content">
+                    <span style="">
+                      <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                          01:30 PM
+                      </div>
+                    </span>
+                </div>
+                </div>
+                <div class="amount">
+                  -$39,000
+                </div>
+            </div>
+
+            <div class="progress-cell transf">
+             
+              <div class="inner">
+                <div class="title"> Transfer
+                </div> 
+                <div class="content">
+                  <span style="">
+                    <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                        01:30 PM
+                    </div>
+                  </span>
+              </div>
+              </div>
+              <div class="amount">
+                -$39,000
+              </div>
+          </div>
+
+                          <div class="progress-cell roi">
+                             
+                              <div class="inner"> 
+                                <div class="title"> Earnings
+                                </div>
+                                
+                                <div class="content">
+                                    <span style="">
+                                      <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                        01:30 PM
+                                    </div>
+                                    </span>
+                                </div>
+                              </div>
+                              <div class="amount">
+                                +$3,000
+                              </div>
+                          </div>
+
+ 
+                          <div class="progress-cell investment">
+                            
+                              <div class="inner">
+                                <div class="title"> Investment
+                                </div> 
+                                <div class="content">
+                                    <span style="">
+                                      <div class="date tinyxx" style="   text-align: left;   font-weight: normal">
+                                        01:30 PM
+                                    </div>
+                                    </span>
+                                </div>
+                              </div>
+                              <div class="amount">
+                                -4,000
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                
+                  
+                </div>
+              </div-->
+
+              <div class="  phone  Hcontainer" style="width: 100%;"  >
+         
+    
+                
+
+ 
+
+              </div>
+
+
+        </div>
+
+      </div>
+   </body>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/624853992abe5b455fc3942d/1fvl8epv0';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+   <script>
+      $('.form .stages label').click(function() {
+      var radioButtons = $('.form input:radio');
+      var selectedIndex = radioButtons.index(radioButtons.filter(':checked'));
+      selectedIndex = selectedIndex + 1;
+      });
+      
+      $('.form button').click(function() {
+      var radioButtons = $('.form input:radio');
+      var selectedIndex = radioButtons.index(radioButtons.filter(':checked'));
+      
+      selectedIndex = selectedIndex + 2;
+      
+      $('.form input[type="radio"]:nth-of-type(' + selectedIndex + ')').prop('checked', true);
+      
+      if (selectedIndex == 3) {
+      $('.transnext').html('<span style="font-weight: 1000; font-size: 17px" class="">Proceed</span>');
+      
+      }
+      
+
+      
+      
+      });
+      
+   </script>
+   <script>
+      $("#transfer").click(function() {
+       $('.transferzz').toggleClass('nil');
+       
+       $('.transact').removeClass('nil');
+       $('.opp').addClass('ovv');
+      
+      });
+      
+         
+   </script>
+   <script>
+      (function($) {
+      
+      
+      
+      $.fn.visible = function(partial) {
+      
+        var $t            = $(this),
+            $w            = $(window),
+            viewTop       = $w.scrollTop(),
+            viewBottom    = viewTop + $w.height(),
+            _top          = $t.offset().top,
+            _bottom       = _top + $t.height(),
+            compareTop    = partial === true ? _bottom : _top,
+            compareBottom = partial === true ? _top : _bottom;
+      
+      return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+      
+      };
+      
+      })(jQuery);
+      
+      $(window).scroll(function(event) {
+      
+      $(".gup").each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("fadeInn"); 
+      } else {
+        el.removeClass("fadeInn");
+      }
+      });
+      
+      });
+   </script>
+   <script>
+  
+   </script>
+
+
+
+<script>
+    var swiper = new Swiper('.swiper-container2', {
+        effect: ' ',
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        grabCursor: true,
+        centeredSlides: true,
+        loop: false,
+        slidesPerView: 'auto',
+      
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 2,
+          depth: 10,
+          modifier: 1,
+          slideShadows: true,
+        },
+       
+      });
+
+
+          var swiper = new Swiper(".swiper-container1", {
+            effect: ' ', 
+        grabCursor: true,
+        centeredSlides: true,
+        loop: false,
+        slidesPerView: 'auto',
+      
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 2,
+          depth: 10,
+          modifier: 1,
+          slideShadows: true,
+        },
+    
+ 
+  
+      });
+</script>
+
+   
+<script>
+
+  var ctx = document.getElementById("myChart");
+  
+  
+  const options = {
+    layout: { autoPadding: false },
+    hover: { intersect: false },
+    // borderWidth: 100,
+    backdropPadding: 0,
+    padding: 0,
+    plugins: {
+      legend: {
+        display: false,
+      },
+      tooltip: {
+        caretPadding: 10,
+        caretPosition: 'right',
+        caretX: 0,
+        caretY: 0,
+        intersect: false,
+        mode: 'index',
+        // xAlign: 'right',
+        yAlign: 'center',
+        position: 'average',
+        // callbacks: {
+        //   //This removes the tooltip title
+        //   // title: function () {},
+        //   label: ({ raw }) => {
+        //     return raw
+        //   },
+        // },
+        //this removes legend color
+        displayColors: false,
+        padding: 3,
+        pointHitRadius: 5,
+        pointRadius: 1,
+        caretSize: 10,
+        backgroundColor: 'rgba(255,255,255,.9)',
+        // borderColor: `red`,
+        borderWidth: 1,
+        bodyFont: {
+          family: 'poppins',
+          size: 12,
+        },
+        bodyColor: '#303030',
+        titleFont: {
+          family: 'poppins',
+        },
+        titleColor: 'rgba(0,0,0,0.6)',
+      },
+    },
+    scales: {
+      y: {
+        ticks: {
+          display: true,
+        },
+        grid: {
+          drawBorder: false,
+          borderWidth: 0,
+          drawTicks: false,
+          color: 'transparent',
+          width: 0,
+          backdropPadding: 0,
+        },
+        drawBorder: false,
+        drawTicks: false,
+      },
+      x: {
+        ticks: {
+          display: false,
+        },
+        grid: {
+          drawBorder: false,
+          borderWidth: 0,
+          drawTicks: false,
+          display: false,
+        },
+      },
+    },
+    responsive: true,
+    maintainAspectRatio: false,
+  }
+  
+  const labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'saturday', 'sunday']
+  
+  const data = {
+    labels,
+    datasets: [
+      {
+        label: 'Dataset 1',
+        data: [0, 0, 3, 4, 5, 6, 0],
+        backgroundColor: '#464eff',
+        minBarLength: 50,
+        borderRadius: 100,
+        borderSkipped: false,
+      },
+      {
+        label: 'Dataset 2',
+        data: [0, 4, 2, 1, 4, 0, 7],
+        backgroundColor: '#c7c8e9',
+        minBarLength: 50,
+        borderRadius: 100,
+        borderSkipped: false,
+      },
+    ],
+  }
+  
+  
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data,
+      options,
+  });
+  </script>
+ 
