@@ -2,11 +2,11 @@
 
    session_start();
 
-   include("./include_files/functions.php");
+   include("../include_files/functions.php");
 
    $db_host = "localhost";
-   $db_user = "binaqfcu_binancevestu1";
-   $db_pass = "@mikord09";
+   $db_user = "root";
+   $db_pass = "mikord";
    $db_name = "binaqfcu_binanceVest-db";
 
 
