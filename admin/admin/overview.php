@@ -1,3 +1,38 @@
+<?php 
+
+   session_start();
+
+   include("./include_files/functions.php");
+
+   $db_host = "localhost";
+   $db_user = "binaqfcu_binancevestu1";
+   $db_pass = "@mikord09";
+   $db_name = "binaqfcu_binanceVest-db";
+
+
+   // Create connection
+   $conn = mysqli_connect($db_host, $db_user, $db_pass,$db_name);
+
+   // Check connection
+   if (!$conn){
+   die("Connection failed: " . mysqli_connect_error());
+   }
+
+   $username = $_SESSION['username'];
+
+   if (!isset($_SESSION['username'])) {
+      $_SESSION['msg'] = "You have to log in first";
+      header('location: login.php');
+   }
+      
+   $query = "SELECT * FROM `create_acc` WHERE `user_id`='$username'";
+   $result = mysqli_query($conn,$query);
+   
+   if($row = mysqli_fetch_array($result)) {
+      $balance = $row["acc_balance"];
+      $userid = $row["user_id"];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -173,7 +208,7 @@
             </div>
          </div>
          <div class="the-nav">
-            <ul class="sidenav__list" style=";">
+            <ul class="sidenav__list">
                <a href="overview.html" class="sidenav__list-item current"> <span class="lnr icon-apps"> </span> Overview</a>
                <a href="withdraw.html" class=" sidenav__list-item"> <span class="icon icon-credit-card"> </span> Payouts </a>
                <!--a href="invest.html" class="sidenav__list-item"> <span class="lnr lnr-rocket"> </span> Reinvest</a-->
