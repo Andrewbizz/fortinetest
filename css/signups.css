@@ -420,7 +420,7 @@ p.credit {
  
  body{ 
 	 background-size: cover ;
- background: #4162ff !important;
+ background: #ee0909 !important;
 	 background-repeat: no-repeat;
 	 background-position: center;
  }
@@ -721,7 +721,7 @@ a:hover{
 	border: none;
     border: solid 1px white;
 	cursor: pointer;
-	background-image: linear-gradient(to right, #4162ff, #4848C7 , #4162ff) ;
+	background-image: linear-gradient(to right, #ee0909, #280700 , #ee0909) ;
 	background-size: 200%;
 	transition: .5s;
 	text-transform: uppercase;

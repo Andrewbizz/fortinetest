@@ -310,12 +310,12 @@ s0.parentNode.insertBefore(s1,s0);
 
          <div class="body" style="z-index: 1;">
             <div style="text-align: center;" class="top-text">
-               <div class=" " style="color: #ffffff !important; margin-bottom: 0px !important; padding-bottom: 20px !important; font-size: 28px; font-weight: bold !important; padding-top: 20px !important; font-family: poppins, sans-serif;"> <img style="width: 40px;" src="images/imgs/fav.png"> VEXT</div>
+               <div class=" " style="color: #ffffff !important; margin-bottom: 0px !important; padding-bottom: 20px !important; font-size: 28px; font-weight: bold !important; padding-top: 20px !important; font-family: poppins, sans-serif;"> <img style="width: 40px;" src="images/imgs/fav.png"> Fortinet</div>
            
             </div>
 
             <div class="login-container">
-               <div class=" " style="color: #4162ff !important; margin-bottom: 0px !important; padding-bottom: 0px !important; font-size: 23px; font-weight: bold !important; padding: 0 !important; font-family: poppins, sans-serif;">Login to your Vext</div>
+               <div class=" " style="color: #ee0909 !important; margin-bottom: 0px !important; padding-bottom: 0px !important; font-size: 23px; font-weight: bold !important; padding: 0 !important; font-family: poppins, sans-serif;">Login to your Vext</div>
                <p class=" " style="color: rgb(0, 0, 0) !important; margin-bottom: 50px; margin-top: 0px !important;">You've been missed </p>
  
                <form method="POST">
