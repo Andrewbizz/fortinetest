@@ -225,7 +225,7 @@ window.smartsupp||(function(d) {
                   <div class="omahlay">
                      <a href="#"> <span class="lnr lnr-home"> </span> HOME</a>
 
-                     <a href="login.html"> <span class="lnr lnr-lock"> </span> LOGIN</a>
+                     <a href="login.php"> <span class="lnr lnr-lock"> </span> LOGIN</a>
                      <a href="signups.html"> <span class="lnr lnr-users"> </span>JOIN</a>
                   </div-->
                </div>
@@ -322,7 +322,7 @@ window.smartsupp||(function(d) {
                </div-->
 
                <div class="text" style="text-align: center; color: #fff;">
-                  Already have an account?? <a href="login.html" style="color: #fff !important; font-weight: bold;"> Login </a>
+                  Already have an account?? <a href="login.php" style="color: #fff !important; font-weight: bold;"> Login </a>
                </div>
             </div>
          </div>

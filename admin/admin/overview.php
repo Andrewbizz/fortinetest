@@ -263,7 +263,7 @@
                            </span> payment</a> 
                         </div>
                         <div>
-                           <a href="../../login.html"> <span class="icon icon-exit_to_app"></span> Log out </a> 
+                           <a href="../../login.php"> <span class="icon icon-exit_to_app"></span> Log out </a> 
                         </div>
                      </div>
                   </div>

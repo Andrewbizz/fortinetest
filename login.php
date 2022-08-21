@@ -295,7 +295,7 @@ s0.parentNode.insertBefore(s1,s0);
                   <div class="omahlay">
                      <a href="#"> <span class="lnr lnr-home"> </span> HOME</a>
 
-                     <a href="login.html"> <span class="lnr lnr-lock"> </span> LOGIN</a>
+                     <a href="login.php"> <span class="lnr lnr-lock"> </span> LOGIN</a>
                      <a href="signups.html"> <span class="lnr lnr-users"> </span>JOIN</a>
                   </div-->
                </div>

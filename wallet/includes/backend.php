@@ -4,7 +4,7 @@
     $current_date = date('Y-m-d h:i:s a'); // the current date
     $myfile = fopen("log.txt", "a") or die("Unable to open file!"); // Open or create log files 
 	if(!(isset($_SESSION["s_user_id"]))){
-		header("location: ../login.html");
+		header("location: ../login.php");
         die("Access denied");
     }
     
