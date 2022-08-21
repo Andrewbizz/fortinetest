@@ -27,7 +27,7 @@
  .tittie{
  width: 80%;
  font-size: 25px;
- font-family: barlow semi condensed;
+ font-family:  blogger;
  margin: auto;  
  }
 
@@ -76,7 +76,7 @@
 width: 80%;
 min-width: 190px;
 font-size: 3vw;
-font-family: barlow semi condensed;
+font-family:  blogger;
 margin: auto;  
 }
 
@@ -116,7 +116,7 @@ margin: auto;
     min-width: 190px;
     font-size: 20px;
     text-overflow: clip;
-    font-family: barlow semi condensed;
+    font-family:  blogger;
     margin: auto;  
     }
 }
