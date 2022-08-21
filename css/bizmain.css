@@ -722,13 +722,23 @@
     height: 180px;
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 0; 
     right: 0;
     left: 0;
     margin: auto;
     /**animation: beating infinite 1s;**/
 }
 
+
+.loader div img{
+    width: 50% !important;
+    position: absolute;
+    margin: auto;
+    top: 0;
+	left: 0;
+	right: 0;
+    bottom: 0;
+}
 
  
  
