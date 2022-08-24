@@ -113,17 +113,27 @@
 
                 echo "  <html>
                             <script>
-                                window.alert('Sign up Successful');
+                                window.alert('Check Email for Verification');
                             </script>
                         </html>
                     ";
                 redirect_to('./wallet/overview.php');   
             }else{
-                echo "Can't Peform the insert operation"; 
+                echo "  <html>
+                            <script>
+                                window.alert('Can't perform the insertion operation');
+                            </script>
+                        </html>
+                    ";
             }
 
         }else{
-            echo "Subission issue";
+            echo "  <html>
+                        <script>
+                            window.alert('Form Submission Error');
+                        </script>
+                    </html>
+                ";
         }
     }
        
