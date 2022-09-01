@@ -4,9 +4,16 @@
 
    include("./include_files/functions.php");
 
+   // Production DB Connection
+   // $db_host = "localhost";
+   // $db_user = "binaqfcu_binancevestu1";
+   // $db_pass = "@mikord09";
+   // $db_name = "binaqfcu_binanceVest-db";
+
+   // Development DB Connection
    $db_host = "localhost";
-   $db_user = "binaqfcu_binancevestu1";
-   $db_pass = "@mikord09";
+   $db_user = "root";
+   $db_pass = "mikord";
    $db_name = "binaqfcu_binanceVest-db";
 
    // Create connection
@@ -18,7 +25,7 @@
    }
    
    $username = "";
-   $password    = "";
+   $password    = ""; 
    $balance = "";
    $errors = array();
    $_SESSION['success'] = "";
@@ -350,7 +357,7 @@ s0.parentNode.insertBefore(s1,s0);
 
             <div class="padding">
                <div class="text" style="text-align: center;">
-                  <a href="forgot.html" style="color: #fff !important;"> Forgot Password? </a>
+                  <a href="forgot.php" style="color: #fff !important;"> Forgot Password? </a>
                </div>
 
                <div class="text" style="text-align: center; color: #fff;">

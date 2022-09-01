@@ -11,11 +11,17 @@
     $errors = array();
     $_SESSION['success'] = "";
     
-    /* DB Connection Initialization */
-   $db_host = "localhost";
-   $db_user = "binaqfcu_binancevestu1";
-   $db_pass = "@mikord09";
-   $db_name = "binaqfcu_binanceVest-db";
+    /* Production DB Connection */
+//    $db_host = "localhost";
+//    $db_user = "binaqfcu_binancevestu1";
+//    $db_pass = "@mikord09";
+//    $db_name = "binaqfcu_binanceVest-db";
+
+    /* Development DB Connection */
+    $db_host = "localhost";
+    $db_user = "root";
+    $db_pass = "mikord";
+    $db_name = "binaqfcu_binanceVest-db";
 
     // Create connection
     $conn = mysqli_connect($db_host, $db_user, $db_pass,$db_name);
